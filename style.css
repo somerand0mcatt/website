@@ -27,10 +27,7 @@ strong {
 
 .navbar {
   display: flex;
-  flex-wrap: inherit;
-  flex-direction: row;
   padding-top: 2rem;
-  padding-bottom: 2rem;
   justify-content: space-between;
 }
 
@@ -45,7 +42,6 @@ i {
 
 .social-links {
   display: flex;
-  align-items: baseline;
   i {
     padding-left: 0.75rem;
   }
