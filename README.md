@@ -1,2 +1,3 @@
 # someerand0mcat.vercel.app
-![screenshot-2024-10-04-19-44-44](https://github.com/user-attachments/assets/af88297a-c8b7-4f9c-b4ad-1ebfd10970f7)
+![screenshot-2024-10-05-09-08-40](https://github.com/user-attachments/assets/2a5b6d53-d1d5-4465-b4d0-ba6d5fbc83cb)
+
