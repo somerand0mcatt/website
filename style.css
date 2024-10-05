@@ -25,11 +25,10 @@ strong {
   color: var(--text) !important;
 }
 
-.navbar {
+.header {
   display: flex;
   padding-top: 2rem;
   justify-content: space-between;
-  align-items: baseline;
 }
 
 a {
@@ -50,4 +49,8 @@ i {
 
 ul {
   list-style-type: none;
+}
+
+.cat {
+  vertical-align: middle;
 }
