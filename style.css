@@ -6,6 +6,7 @@
   --crust: #dce0e8;
   --surface0: #ccd0da;
   --text: #4c4f69;
+  --accent: #8839ef;
 }
 
 :root[flavor="frappe"] {
@@ -14,6 +15,7 @@
   --crust: #232634;
   --surface0: #414559;
   --text: #c6d0f5;
+  --accent: #ca9ee6;
 }
 
 :root[flavor="macchiato"] {
@@ -22,6 +24,7 @@
   --crust: #181926;
   --surface0: #363a4f;
   --text: #cad3f5;
+  --accent: #c6a0f6;
 }
 
 :root[flavor="mocha"] {
@@ -30,6 +33,7 @@
   --crust: #11111b;
   --surface0: #313244;
   --text: #cdd6f4;
+  --accent: #cba6f7;
 }
 
 body {
@@ -49,12 +53,8 @@ body {
 }
 
 a {
-  color: var(--text);
+  color: var(--accent);
   text-decoration: none;
-}
-
-i {
-  font-size: 32px;
 }
 
 .social-links {
