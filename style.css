@@ -1,43 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 
-:root[flavor="latte"] {
-  --base: #eff1f5;
-  --mantle: #e6e9ef;
-  --crust: #dce0e8;
-  --surface0: #ccd0da;
-  --text: #4c4f69;
-  --accent: #8839ef;
-}
-
-:root[flavor="frappe"] {
-  --base: #303446;
-  --mantle: #292c3c;
-  --crust: #232634;
-  --surface0: #414559;
-  --text: #c6d0f5;
-  --accent: #ca9ee6;
-}
-
-:root[flavor="macchiato"] {
-  --base: #24273a;
-  --mantle: #1e2030;
-  --crust: #181926;
-  --surface0: #363a4f;
-  --text: #cad3f5;
-  --accent: #c6a0f6;
-}
-
-:root[flavor="mocha"] {
-  --base: #1e1e2e;
-  --mantle: #181825;
-  --crust: #11111b;
-  --surface0: #313244;
-  --text: #cdd6f4;
-  --accent: #cba6f7;
+:root {
+  --bg: #2e3440;
+  --surface: #3b4252;
+  --text: #e5e9f0;
+  --accent: #81a1c1;
 }
 
 body {
-  background-color: var(--base);
+  background-color: var(--bg);
   color: var(--text);
   font-family: "Open Sans";
   padding-left: 10rem;
@@ -77,9 +48,9 @@ ul {
 }
 
 select {
-  background-color: var(--mantle);
+  background-color: var(--surface);
   color: var(--text);
   border: 1px solid;
   border-radius: 5px;
-  border-color: var(--surface0);
+  border-color: var(--surface);
 }
